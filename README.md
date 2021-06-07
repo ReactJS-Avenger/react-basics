@@ -24,3 +24,6 @@ Pure functions are deterministic (meaning that, given an input, they always retu
         ...state,
         arr: [...state.arr, action.newItem]
     }
+----------------------------------------------------------------------------------------------------------------------------------------------
+1. react-learning: https://github.com/learncodeacademy/react-js-tutorials
+2. https://www.youtube.com/watch?v=1iAG6h9ff5s&list=PLoYCgNOIyGABj2GQSlDRjgvXtqfDxKm5b&index=6
