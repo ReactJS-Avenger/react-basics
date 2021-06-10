@@ -33,3 +33,23 @@ Pure functions are deterministic (meaning that, given an input, they always retu
 Flux is a patteren
 1. where the component fire the action and lister to store
 all store will get all events but only react to the required events
+
+-------------------------------------------------------------------
+
+## Fetch
+```js
+fetchPost=()=>{
+    fetch('https://jsonplaceholder.typicode.com/posts').then((response) => response.json())
+    .then((data)=> data.map((el)=>(
+      {
+        userId: `${el.userId}`,
+        title: `${el.title}`  
+      }
+    )))
+    .then((contact)=> this.setState({
+      isLoading: false,
+      contact
+    }))
+    .catch((error)=> console.log("falied to load the data", error))
+  }
+ ```
