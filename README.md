@@ -53,3 +53,7 @@ fetchPost=()=>{
     .catch((error)=> console.log("falied to load the data", error))
   }
  ```
+------------------------------------------------------------------------------------
+https://stackoverflow.com/questions/26253351/correct-modification-of-state-arrays-in-react-js 
+
+https://stackoverflow.com/questions/43638938/updating-an-object-with-setstate-in-react
